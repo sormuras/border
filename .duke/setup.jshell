@@ -1,0 +1,5 @@
+/open https://github.com/sormuras/run.duke/raw/main/src/duke.run/Duke.java
+Duke.init("early-access")
+Duke.grab("https://github.com/kordamp/jarviz/releases/download/early-access/jarviz-tool-provider-early-access.jar")
+Duke.setup()
+/exit
