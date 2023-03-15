@@ -24,3 +24,5 @@ jobs:
         run: jshell .duke/setup.jshell
       - name: 'Run custom build tool operator'
         run: java @duke build
+      - name: 'Run border program'
+        run: java -jar com.github.sormuras.border.jar ${{ github.sha }}
