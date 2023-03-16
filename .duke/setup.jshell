@@ -1,4 +1,4 @@
-/open https://github.com/sormuras/run.duke/raw/main/src/duke.run/Duke.java
-Duke.init("early-access") // java @duke build
+/open https://src.duke.run/Duke.java
+Duke.init("early-access") // grabs "run.duke" module and generates "duke" command-line argument file
 Duke.grab("https://github.com/kordamp/jarviz/releases/download/early-access/jarviz-tool-provider-early-access.jar")
 /exit

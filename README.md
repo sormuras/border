@@ -2,10 +2,20 @@
 
 Print a line of text framed with a border
 
+## Bootstrap
+
+```shell
+jshell .duke/setup.jshell
+```
+
 ## Build
 
-`jshell .duke/setup.jshell & java @duke build`
+```shell
+java @duke build
+```
 
 ## Run
 
-`java -jar com.github.sormuras.border.jar Hello`
+```shell
+java -jar com.github.sormuras.border.jar Hello
+```
