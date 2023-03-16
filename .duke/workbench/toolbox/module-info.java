@@ -2,6 +2,6 @@ module toolbox {
   requires org.kordamp.jarviz.tool;
   requires run.duke;
 
-  provides run.duke.Initializer with
-      toolbox.ToolboxInitializer;
+  provides java.util.spi.ToolProvider with
+      toolbox.BuildToolOperator;
 }
